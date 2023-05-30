@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauranto</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script src="https://kit.fontawesome.com/159246e8f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- <img src="assets/logo.png"/> -->
+        <h1> Restauranto </h1>
+        <ul>
+            <li> Home </li>
+            <li><a href="menu.html"> Menu </a> </li>
+            <li><a href="aboutus.html"> About us </a></li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <section >
+                <form id="foodForm">
+                    <fieldset>
+                        <legend> Choose your order </legend>
+                        </br>
+                        <div>
+                            <label for="foodName"> Food name : </label>
+                            <input type="text" id="foodName" name="foodName">
+                        </div>
+                        <label for="foodM"> Type :</label>
+                        <select id="foodM" name="foodM">
+                            <option value="fruits and vegetables"> Fruits and vegetables </option>
+                            <option value="Starchy food"> Starchy food </option>
+                            <option value="Dairy"> Dairy </option>
+                            <option value="Protein"> Protein </option>
+                            <option value="Fat"> Fat </option>
+                        </select>
+                        <div>
+                            <label for="foodPrice"> Price : </label>
+                            <input type="number" id="foodPrice" name="foodPrice">
+                        </div>
+                        <div>
+                            <button class="foodB" id="save" type="submit"> save </button>
+                        </div>
+                        </br>
+                    </fieldset>
+                </form>
+                <table id="foodT" class="foodT">
+                    <th> Id </th>
+                    <th> Name </th>
+                    <th> Type </th>
+                    <th> Price </th>
+                    
+                </table>
+            </section>
+        </div>
+        <div>
+            <img src="assets/restaurant.jpg" alt="" srcset="">
+        </div>
+
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
