@@ -17,12 +17,23 @@ header {
 header ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 header a {
     text-decoration: none;
+    
 }
+ a {
+    color:rgb(237, 197, 197);
+    background-color: transparent;
+    font-weight: bolder;
+  }
+  a:hover{
+    color:red;
+    font-size: 23px;
+  }
+  
 
 main {
     min-height: 60vh;
